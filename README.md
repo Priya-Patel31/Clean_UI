@@ -8,11 +8,11 @@ Coming Soon...
 
 ## Features
 - Simple and easy to use components.
--- Reusable and Modular components.
--- Followed OOCSS concepts while building the component library.
--- You can combine the classes and use them as per your accordance.
+- Reusable and Modular components.
+- Followed OOCSS concepts while building the component library.
+- You can combine the classes and use them as per your accordance.
 
 ## Installation
 
---For using my component library just import the cdn 
+- For using my component library just import the cdn 
 
