@@ -27,10 +27,10 @@ async function runApp(){
            id:"avatar-container",
            source: fetch("../component/avatar/avatar.html")
        },
-       {
-           id:"badge-container",
-           source: fetch("../component/badge/badge.html")
-       },
+    //    {
+    //        id:"badge-container",
+    //        source: fetch("../component/badge/badge.html")
+    //    },
        {
            id:"button-container",
            source: fetch("../component/button/button.html")
@@ -39,14 +39,14 @@ async function runApp(){
            id:"card-container",
            source: fetch("../component/card/card.html")
        },
-       {
-           id:"form-container",
-           source: fetch("../component/form/form.html")
-       },
-       {
-           id:"responsive-image-ctn",
-           source: fetch("../component/image/image.html")
-       },
+    //    {
+    //        id:"form-container",
+    //        source: fetch("../component/form/form.html")
+    //    },
+    //    {
+    //        id:"responsive-image-ctn",
+    //        source: fetch("../component/image/image.html")
+    //    },
     ]
    
     const promises = await Promise.allSettled(files.map(e => e.source))
