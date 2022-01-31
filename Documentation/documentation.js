@@ -55,8 +55,8 @@ async function runApp(){
         const promise = promises[i]
         if(promise.value.status === 200){
            const component = await promise.value.text();
-           // document.getElementById(files[i].id).innerHTML = component
-           console.log(component);
+           document.getElementById(files[i].id).innerHTML = component
+        //    console.log(component);
         }
     }
 }
