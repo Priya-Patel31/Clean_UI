@@ -36,7 +36,7 @@ async function runApp(){
            source: fetch("../component/button/button.html")
        },
        {
-           id:"card-container",
+           id:"cards-container",
            source: fetch("../component/card/card.html")
        },
     //    {
